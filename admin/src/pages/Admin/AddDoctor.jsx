@@ -182,12 +182,12 @@ const AddDoctor = () => {
                 name=""
                 id="sp-sl"
               >
-                <option value="General physician">General physician</option>
-                <option value="Gynecologist">Gynecologist</option>
-                <option value="Dermatologist">Dermatologist</option>
-                <option value="Pediatricians">Pediatricians</option>
-                <option value="Neurologist">Neurologist</option>
-                <option value="Gastroenterologist">Gastroenterologist</option>
+                <option value="គ្រូពេទ្យឯកទេសទូទៅ">គ្រូពេទ្យឯកទេសទូទៅ</option>
+                <option value="គ្រូពេទ្យឯកទេសរោគស្ត្រី">គ្រូពេទ្យឯកទេសរោគស្ត្រី</option>
+                <option value="គ្រូពេទ្យឯកទេសសើស្បែក">គ្រូពេទ្យឯកទេសសើស្បែក</option>
+                <option value="គ្រូពេទ្យឯកទេសកុមារ">គ្រូពេទ្យឯកទេសកុមារ</option>
+                <option value="គ្រូពេទ្យឯកទេសសរសៃប្រសាទ">គ្រូពេទ្យឯកទេសសរសៃប្រសាទ</option>
+                <option value="គ្រូពេទ្យឯកទេសក្រពះពោះវៀន">គ្រូពេទ្យឯកទេសក្រពះពោះវៀន</option>
               </select>
             </div>
 

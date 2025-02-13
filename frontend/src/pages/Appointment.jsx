@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
 import { assets } from "../assets/assets_frontend/assets";
@@ -155,7 +155,7 @@ const Appointment = () => {
 
             <div>
               <p className="flex items-center gap-1 text-sm font-medium text-gray-900 mt-3">
-                About <img src={assets.info_icon} alt="" />
+                អំពីវេជ្ចបណ្ឌិត <img src={assets.info_icon} alt="" />
               </p>
               <p className="text-sm text-gray-500 max-w-[700px] mt-1">
                 {docInfo.about}
@@ -163,7 +163,7 @@ const Appointment = () => {
             </div>
 
             <p className="text-gray-500 font-medium mt-4">
-              Appointment fee:{" "}
+              តម្លៃការណាត់:{" "}
               <span className="text-gray-600">
                 {currencySymbol}
                 {docInfo.fees}
@@ -173,7 +173,7 @@ const Appointment = () => {
         </div>
         {/*----- booking slots ----- */}
         <div className=" sm:ml-72 sm:pl-4 mt-4 font-medium text-gray-700">
-          <p>Booking slots</p>
+          <p>កក់ពេលវេលាសម្រាប់ការណាត់</p>
           <div className="flex gap-3 items-center w-full overflow-x-scroll mt-4">
             {
             docSlots.length &&
@@ -213,7 +213,7 @@ const Appointment = () => {
             onClick={bookAppointment}
             className="bg-primary text-white text-sm font-light px-14 py-3 rounded-full my-6 "
           >
-            Book an Appointment
+            កក់ការណាត់
           </button>
         </div>
         {/*----- Listing Related Doctors ----- */}

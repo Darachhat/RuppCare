@@ -1,4 +1,3 @@
-import React from 'react'
 import { assets } from '../assets/assets_frontend/assets'
 
 const Footer = () => {
@@ -8,7 +7,6 @@ const Footer = () => {
         {/* ----- left section ----- */}
         <div>
           <img className='mb-5 w-40' src={assets.logo} alt="" />
-          <p className='w-full md:w-2/3 text-gray-600 leading-6' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
         </div>
         {/* ----- Center section ----- */}

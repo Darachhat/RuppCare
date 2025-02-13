@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import  { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
 
@@ -24,7 +24,7 @@ const Doctors = () => {
 
   return (
     <div>
-      <p className="text-gray-600">Browse through the doctors specialist.</p>
+      <p className="text-gray-600">មើលតាមរយៈឯកទេសរបស់វេជ្ជបណ្ឌិត</p>
       <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
         <button
           className={`py-1 px-3 border rounded text-sm transition-all sm:hidden ${
@@ -41,79 +41,79 @@ const Doctors = () => {
         >
           <p
             onClick={() =>
-              speciality === "General physician"
+              speciality === "គ្រូពេទ្យឯកទេសទូទៅ"
                 ? navigate("/doctors")
-                : navigate("/doctors/General physician")
+                : navigate("/doctors/គ្រូពេទ្យឯកទេសទូទៅ")
             }
             className={`w-[94vw] sm:w-auto pl-3 py-1.5 border border-grey-300 rounded transition-all cursor-pointer ${
-              speciality === "General physician"
+              speciality === "គ្រូពេទ្យឯកទេសទូទៅ"
                 ? "bg-indigo-100 text-black"
                 : ""
             }`}
           >
-            General physician
+            គ្រូពេទ្យឯកទេសទូទៅ
           </p>
           <p
             onClick={() =>
-              speciality === "Gynecologist"
+              speciality === "គ្រូពេទ្យឯកទេសរោគស្ត្រី"
                 ? navigate("/doctors")
-                : navigate("/doctors/Gynecologist")
+                : navigate("/doctors/គ្រូពេទ្យឯកទេសរោគស្ត្រី")
             }
             className={`w-[94vw] sm:w-auto pl-3 py-1.5 border border-grey-300 rounded transition-all cursor-pointer ${
-              speciality === "Gynecologist" ? "bg-indigo-100 text-black" : ""
+              speciality === "គ្រូពេទ្យឯកទេសរោគស្ត្រី" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            Gynecologist
+            គ្រូពេទ្យឯកទេសរោគស្ត្រី
           </p>
           <p
             onClick={() =>
-              speciality === "Dermatologist"
+              speciality === "គ្រូពេទ្យឯកទេសសើស្បែក"
                 ? navigate("/doctors")
-                : navigate("/doctors/Dermatologist")
+                : navigate("/doctors/គ្រូពេទ្យឯកទេសសើស្បែក")
             }
             className={`w-[94vw] sm:w-auto pl-3 py-1.5 border border-grey-300 rounded transition-all cursor-pointer  ${
-              speciality === "Dermatologist" ? "bg-indigo-100 text-black" : ""
+              speciality === "គ្រូពេទ្យឯកទេសសើស្បែក" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            Dermatologist
+            គ្រូពេទ្យឯកទេសសើស្បែក
           </p>
           <p
             onClick={() =>
-              speciality === "Pediatricians"
+              speciality === "គ្រូពេទ្យឯកទេសកុមារ"
                 ? navigate("/doctors")
-                : navigate("/doctors/Pediatricians")
+                : navigate("/doctors/គ្រូពេទ្យឯកទេសកុមារ")
             }
             className={`w-[94vw] sm:w-auto pl-3 py-1.5 border border-grey-300 rounded transition-all cursor-pointer ${
-              speciality === "Pediatricians" ? "bg-indigo-100 text-black" : ""
+              speciality === "គ្រូពេទ្យឯកទេសកុមារ" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            Pediatricians
+            គ្រូពេទ្យឯកទេសកុមារ
           </p>
           <p
             onClick={() =>
-              speciality === "Neurologist"
+              speciality === "គ្រូពេទ្យឯកទេសសរសៃប្រសាទ"
                 ? navigate("/doctors")
-                : navigate("/doctors/Neurologist")
+                : navigate("/doctors/គ្រូពេទ្យឯកទេសសរសៃប្រសាទ")
             }
             className={`w-[94vw] sm:w-auto pl-3 py-1.5 border border-grey-300 rounded transition-all cursor-pointer ${
-              speciality === "Neurologist" ? "bg-indigo-100 text-black" : ""
+              speciality === "គ្រូពេទ្យឯកទេសសរសៃប្រសាទ" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            Neurologist
+            គ្រូពេទ្យឯកទេសសរសៃប្រសាទ
           </p>
           <p
             onClick={() =>
-              speciality === "Gastroenterologist"
+              speciality === "គ្រូពេទ្យឯកទេសក្រពះពោះវៀន"
                 ? navigate("/doctors")
-                : navigate("/doctors/Gastroenterologist")
+                : navigate("/doctors/គ្រូពេទ្យឯកទេសក្រពះពោះវៀន")
             }
             className={`w-[94vw] sm:w-auto pl-3 py-1.5 border border-grey-300 rounded transition-all cursor-pointer ${
-              speciality === "Gastroenterologist"
+              speciality === "គ្រូពេទ្យឯកទេសក្រពះពោះវៀន"
                 ? "bg-indigo-100 text-black"
                 : ""
             }`}
           >
-            Gastroenterologist
+            គ្រូពេទ្យឯកទេសក្រពះពោះវៀន
           </p>
         </div>
         <div className="w-full grid grid-cols-auto gap-4 gap-y-6">
