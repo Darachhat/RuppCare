@@ -135,7 +135,7 @@ const Doctors = () => {
                       item.available ? " bg-green-500" : "bg-gray-500"
                     } rounded-full`}
                   ></p>{" "}
-                  <p>{item.available ? "Available" : "Not Available"}</p>
+                  <p>{item.available ? "ទំនេរ" : "មិនទាន់ទំនេរ"}</p>
                 </div>
                 <p className=" text-gray-900 text-lg font-medium">
                   {" "}
