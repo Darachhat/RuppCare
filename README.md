@@ -19,7 +19,6 @@ It improves onboarding, sets clear expectations, and makes future maintenance or
 - bcryptjs (password hashing)
 - jsonwebtoken (authentication)
 - cloudinary (media storage)
-- Razorpay (payment integration)
 
 **Other Tools:**
 - ESLint, PostCSS, autoprefixer
@@ -35,7 +34,6 @@ It improves onboarding, sets clear expectations, and makes future maintenance or
 - Profile management
 - Browse doctors by specialty
 - Book medical appointments
-- Secure payment integration (Razorpay)
 - Appointment history & management
 
 **Admin-Facing:**
