@@ -1,7 +1,6 @@
-## Why Document the Tech Stack and Core Features?
+## ហេតុអ្វីបានជាខ្ងុំចងក្រង បច្ចេកវិទ្យាដែលខ្ងុំប្រើប្រាស់និង មុខងារដែលមាន?
 
-Clearly stating the tech stack and implemented features helps developers, contributors, and users quickly understand what technologies power this project and what functionality is available.  
-It improves onboarding, sets clear expectations, and makes future maintenance or collaboration much easier.
+ការបញ្ជាក់អំពីបច្ចេកវិទ្យាដែលខ្ងុំប្រើប្រាស់និង មុខងារដែលមានគឺអាចជួយដល់អ្នកអភិវឌ្ឍន៍ អ្នករួមចំណែក និងអ្នកប្រើប្រាស់យល់បានយ៉ាងរហ័សនូវបច្ចេកវិទ្យាអ្វីដែលបានប្រើ មុខងារអ្វីដែលមាននៅក្នុងគម្រោងនេះ ដែលនិងធ្វើឱ្យការថែទាំ ឬកិច្ចសហការនាពេលអនាគតកាន់តែងាយស្រួល
 
 ## 🛠 Tech Stack
 
