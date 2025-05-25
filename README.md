@@ -19,27 +19,27 @@
 - jsonwebtoken (authentication)
 - cloudinary (media storage)
 
-**Other Tools:**
-- ESLint, PostCSS, autoprefixer
-- SWC/Babel (JS/React transpilation)
-- Rich SVG/PNG assets
-
 ---
 
 ## 🚀 Core Features
 
-**User-Facing:**
+**User:**
 - User registration & login
 - Profile management
 - Browse doctors by specialty
 - Book medical appointments
 - Appointment history & management
 
-**Admin-Facing:**
-- Admin dashboard for doctors, appointments & patients
-- Add, update, and remove doctors
-- View key stats and analytics
+**Doctor:**
+- View key stats and analytics earning, appointments & patients
+- Update fee and address
 - Manage and cancel appointments
+
+**Admin:**
+- View key stats and analytics of doctors, appointments & patients
+- Add, update, and remove doctors
+- Manage appointment list
+- Manage doctor list
 
 **General:**
 - Responsive, modern UI
