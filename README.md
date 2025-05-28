@@ -1,4 +1,4 @@
-## Doctor Booking Appointment នេះគឺជាវេបសាយសម្រាប់ធ្វើការកក់ណាត់ជួបជាមួយវេជ្ជបណ្ឌិត
+## RuppCare នេះគឺជាវេបសាយសម្រាប់ធ្វើការកក់ណាត់ជួបជាមួយវេជ្ជបណ្ឌិត
 ![image](https://github.com/user-attachments/assets/1f53f4bf-c09a-445a-9779-34722265176a)
 ![image](https://github.com/user-attachments/assets/4ee4731d-7db7-4b04-876c-5a3d6106b4e3)
 
