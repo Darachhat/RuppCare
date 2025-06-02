@@ -2,8 +2,10 @@
 ![image](https://github.com/user-attachments/assets/1f53f4bf-c09a-445a-9779-34722265176a)
 ![image](https://github.com/user-attachments/assets/4ee4731d-7db7-4b04-876c-5a3d6106b4e3)
 
+> **Description:**  
+> Full-stack web application for booking medical appointments, built with React, Node.js, Express, and MongoDB. Implements modern authentication, secure user management, and real-time doctor-patient scheduling. Showcases strong skills in JavaScript, REST APIs, cloud storage integration, and responsive UI/UX with technologies like Tailwind CSS and Vite.
 
-អំពីបច្ចេកវិទ្យាដែលខ្ងុំប្រើប្រាស់និង មុខងារដែលមានគឺបានបង្ហាញនៅក្រោមអាចជួយដល់អ្នកអភិវឌ្ឍន៍ អ្នករួមចំណែក និងអ្នកប្រើប្រាស់យល់បានយ៉ាងរហ័សនូវបច្ចេកវិទ្យាអ្វីដែលបានប្រើ មុខងារអ្វីដែលមាននៅក្នុងគម្រោងនេះ ដែលនិងធ្វើឱ្យការថែទាំ ឬកិច្ចសហការនាពេលអនាគតដើម្បីអភិវឌ្ឍន៍កាន់តែងាយស្រួល
+> អំពីបច្ចេកវិទ្យាដែលខ្ងុំប្រើប្រាស់និង មុខងារដែលមានគឺបានបង្ហាញនៅក្រោមអាចជួយដល់អ្នកអភិវឌ្ឍន៍ អ្នករួមចំណែក និងអ្នកប្រើប្រាស់យល់បានយ៉ាងរហ័សនូវបច្ចេកវិទ្យាអ្វីដែលបានប្រើ មុខងារអ្វីដែលមាននៅក្នុងគម្រោងនេះ ដែលនិងធ្វើឱ្យការថែទាំ ឬកិច្ចសហការនាពេលអនាគតដើម្បីអភិវឌ្ឍន៍កាន់តែងាយស្រួល
 
 ## Tech Stack
 
